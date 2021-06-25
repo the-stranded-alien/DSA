@@ -4,9 +4,12 @@ Sliding Window Introduction
 - Can reduce the time complexity from O(N^2) to O(N).
 
 - Type 1 => Fixed Window Length
-
 The length of the window is fixed and it asks you to find something in the window
 such as the max sum of all windows, the median or maximum number of each window.
 Usually we need kind of variables to maintain the state of the window, some are as
 simple as integer or it could be as complicated as some advanced data structure such
 as list, queue, or deque. 
+
+- Type 2 => Two Pointers + Criteria
+The window size is not fixed, usually it asks you to find the subarray that meets
+the criteria.
