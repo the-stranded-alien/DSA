@@ -1,0 +1,30 @@
+In this section, we will be using different STL containers to solve problems
+involving Hash-table data structure. In C++ we have the following container
+options available. All the unordered containers internally use a hash-table
+like structure and ordered containers (maps, multimaps, sets) use a tree like
+structure.  Unordered Containers have an average complexity of O(1) for insert,
+search, delete and ordered containers have it as O(LogN) where N is the number
+of entries in the container.
+
+1. Maps & Unordered Maps
+2. Multimaps & Unordered Multimaps
+3. Sets & Unordered Sets
+
+
+
+1. Maps & Unorderd Maps (When to use Unordered Map vs Map?)
+Map operates in O(LogN) time where as Unordered Map is O(1) on average.
+Map keeps the data sorted, where unordered map keeps it in random order
+(due to separate chaining) Map uses a balanced tree like data structure,
+whereas Unordered Map implements a hash-table with separate chaining. 
+So if the problem requires you to store key-value pairs in sorted order
+then use map, otherwise unordered map is better.
+
+2. Multimaps & Unordered Multimaps
+We also have containers like Multimap, which are useful when there are
+multiple keys with equivalent value.
+
+3. Sets & Unordered Sets
+Sets are little different from hashtables, they don't store key-value
+pairs but can store keys in a sorted order.  Unordered Sets are faster
+and work in O(1) time on average. If sorting is not a requirement, then use Unordered Sets.
