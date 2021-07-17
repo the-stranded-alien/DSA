@@ -1,0 +1,19 @@
+# DP is all about "Remembering" what you have solved in the past.
+
+=> In Recursion, In most cases there are overlapping sub-problems.
+=> We use Memoization along with Recursion to avoid this.
+
+=> Top Down DP :- In top down DP, we start building the big solution right
+way by explaining how you build it from smaller solutions. (Recursion + Memoization)
+
+=> Bottom Up DP :- In bottom up DP, we start with small solutions and then
+use the small solutions to build larger solutions. (Iterative + Memoization)
+
+NOTE =>
+
+1. DP is an Optimisation Technique.
+2. For Problems with Optimal Sub-Structure & Overlapping Sub-Problems.
+3. DP Solutions Can be :
+    A. Top Down (Recursion + Memoization)
+    B. Bottom Up (Iterative)
+4. Top Down is Generally Easy While Bottom Up Approach is Generally Faster.
